@@ -1,0 +1,5 @@
+const ELECTRON_EVENTS = {
+	CREATE_NOTE: "CREATE_NOTE"
+}
+
+module.exports = ELECTRON_EVENTS

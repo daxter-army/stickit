@@ -1,0 +1,53 @@
+.stickyNote {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.stickyNote__handle {
+	/* cursor: move; */
+	/* background-color: blue; */
+	/* -webkit-user-select: none;
+	-webkit-app-region: drag; */
+}
+
+.stickyNote__title,
+.stickyNote__body {
+	resize: none;
+	border: none;
+	outline: none;
+	/* border: 2px red solid; */
+	background-color: transparent;
+}
+
+.stickyNote__title {
+	font-weight: 700;
+	font-size: 1.4rem;
+	overflow: hidden;
+	padding: 4px 8px;
+	/* min-height: 50px; */
+}
+
+.stickyNote__body {
+	flex: 1;
+	width: 100%;
+	padding: 0px 8px 4px 8px;
+	font-size: 1rem;
+	/* border-top: 1px #c4c4c4 dashed; */
+}
+
+/* .stickyNote__body::-webkit-scrollbar {
+	width: 5px;
+}
+
+.stickyNote__body::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+.stickyNote__body::-webkit-scrollbar-thumb {
+	background: #f00;
+}
+
+.stickyNote__body::-webkit-scrollbar-thumb:hover {
+	background: #555;
+} */

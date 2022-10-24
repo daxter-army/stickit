@@ -1,0 +1,25 @@
+.searchBar {
+	position: relative;
+}
+
+.searchBar__searchIcon {
+	position: absolute;
+	/* display: none; */
+	top: 50%;
+	left: 10px;
+	transform: translateY(-52%);
+}
+
+.searchBar__searchField {
+	padding: 5px 10px 5px 35px;
+	font-size: 1.3rem;
+	width: 400px;
+	border-radius: 4px;
+	border: 2px #4A4A4A solid;
+	background-color: transparent;
+	outline: none;
+}
+
+.searchBar__searchField:focus {
+	border: 2px brown solid;
+}

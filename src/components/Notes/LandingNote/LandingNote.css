@@ -1,0 +1,14 @@
+.landingNote {
+	cursor: pointer;
+	position: fixed;
+	padding: 16px;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #FFE3E3;
+}
+
+.landingNote__noteHeading {
+	font-size: 2rem;
+	font-weight: 700;
+}
